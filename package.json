@@ -8,7 +8,8 @@
     "start": "node API/server.js",
     "server": "nodemon API/server.js",
     "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
